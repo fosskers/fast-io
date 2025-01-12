@@ -11,8 +11,8 @@
   :license "MIT"
   :version "1.0"
 
-  :depends-on (:alexandria :trivial-gray-streams
-               #+fast-io-sv
+  :depends-on (:alexandria
+               :trivial-gray-streams
                :static-vectors)
 
   :pathname "src"
